@@ -11,13 +11,26 @@ public class functions{
             }
             return f;
         }
+        // find binomial co-efficent of n 
+        public static int coeff(int n,int r){
+           
+
+            int a = factorial(n);
+            int b = factorial(r);
+            int c = factorial(n-r);
+                 int coeff=a/(b*c);
+        
+                 return coeff;
+            
+        }
     
     public static void main(String[] args) {
-        System.out.println("Enter the value of n");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(factorial(n));
         
+       
+       
+     
+            System.out.println(coeff(5, 2));
+   
 
     }
     
