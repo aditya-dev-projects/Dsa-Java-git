@@ -1,11 +1,7 @@
 import java.util.*;
 public class functions{ 
-    public static int multiply(int a,int b){
-        int product = a*b;
-        return product;
-    }
 
-    // Find the factorial 0f n (take input n)
+     // Find the factorial 0f n (take input n)
     
         public static int factorial(int n){
             int f = 1;
@@ -27,4 +23,6 @@ public class functions{
     
 }
 
+
+   
 
