@@ -1,6 +1,6 @@
- import java.util.*;
- public class functions {
-    // Write a method isEven(int num) that returns true if the number is even, else false.
+import java.util.*;
+public class java1 {
+// Write a method isEven(int num) that returns true if the number is even, else false.
     public static int isEven(int n){
         if (n%2==0) {
     System.out.println("Given number is even");
@@ -17,5 +17,5 @@
    
     isEven(n);
 
- }
+ }   
 }
