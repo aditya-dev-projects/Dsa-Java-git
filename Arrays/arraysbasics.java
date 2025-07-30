@@ -1,3 +1,4 @@
+// PASSING ARRAYS AS ARGUMENTS
 public class arraysbasics {
     
     public static void main(String[] args) {
