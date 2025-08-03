@@ -1,4 +1,5 @@
 public class arrayQ2 {
+    // REVERSE A GIVEN ARRAY;
     public static void reverse(int numbers[]){
          int i=0;//First Element Of Array
         int j=numbers.length -1;//Last Element Of Array
